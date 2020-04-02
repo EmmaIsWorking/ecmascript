@@ -124,3 +124,60 @@ console.log(globalVar)
 const a = 'b'
 a = 'a'
 //ERROR
+
+// ---> Propiedad de objetos mejorada
+
+let name = 'Emmanuel'
+let age = 28
+
+obj1 = {name: name, age: age}
+
+// SE6
+obj2 = {name, age}
+
+console.log(obj2)
+
+
+//Arrow Function
+
+const names = [
+    {name: 'Emmanuel', age: 28 },
+    {name: 'Lisa', age: 38 }
+]
+
+let listOfName = names.map(function(item){
+    console.log(item.age)
+})
+
+// ES6
+
+let listOfName2 = names.map(item => console.log(item.name))
+
+let listOfName3 = names.map((person) =>{
+    console.log(person.name)
+    console.log(person.age)
+})
+
+
+const square = num => num * num
+
+
+// ---> Promesas
+
+
+const ejPromesa = () =>{
+
+    return new Promise((resolve, reject) => {
+        if(true){
+            resolve('Resuelve la promesa')
+        }else{
+            reject('Rechaza la promesa')
+        }
+    })
+}
+
+
+ejPromesa()
+    .then(result => console.log('Se cumplio la promesa'))
+    .then(() => console.log('Otro then más'))
+    .catch(error => console.log('Error'))
