@@ -1,11 +1,11 @@
 ## Course de ECMAScript +6
 
-##Descripción
+## Descripción
 Curso enfocado en aprender la nueva sintaxy de JavaScrip con relacion a las viejas practicas
 
-##Index
+## Index
 
-###¿Qué se implementó en ES6?
+### ¿Qué se implementó en ES6?
 
 | Class Name | Branch |  
 | --- | --- |
@@ -14,21 +14,21 @@ Curso enfocado en aprender la nueva sintaxy de JavaScrip con relacion a las viej
 | Arrow Functions, Promesas y Parámetros en objetos | clase3 |
 | Clases Módulos y generadores| clase4 |
 
-###¿Qué se implemento en ES7?
+### ¿Qué se implemento en ES7?
 
 | Class Name | Branch |  
 | --- | --- |
 | ¿Qué se implemnto en ES7? | clase5 |
 
 
-###¿Qué se implementó en ES8?
+### ¿Qué se implementó en ES8?
 
 | Class Name | Branch |  
 | --- | --- |
 | ¿Qué se implementó en ES8? | clase6 |
 | Async Await | clase7 |
 
-###Actualidad y próximos pasos de ECMAScript?
+### Actualidad y próximos pasos de ECMAScript?
 
 | Class Name | Branch |  
 | --- | --- |
