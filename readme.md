@@ -1,7 +1,7 @@
 ## Course de ECMAScript +6
 
 ## Descripción
-Curso enfocado en aprender la nueva sintaxy de JavaScrip con relacion a las viejas practicas
+Curso sobre la nueva sintaxis de JavaScrip con relación a viejas practicas. Lo imparte Oscar Barajas [gndx](https://twitter.com/gndx?lang=es) del equipo de Platzi
 
 ## Index
 
