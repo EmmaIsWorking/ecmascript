@@ -197,15 +197,42 @@ ejPromesa()
     .catch(error => console.log('Error'))
 
 
+// ---> Class
+
 class calculator{
-    constructor(valueA, valueB){
+    constructor(){
         this.valueA = 0
         this.valueB = 0
     }
     sum(valueA, valueB){
         this.valueA = valueA
-        this.valueA = valueB
+        this.valueB = valueB
 
         return this.valueA + this.valueB
     }
 }
+
+const cal = new calculator()
+console.log(cal.sum(243,345))
+
+
+// ---> Import & export
+
+import { hello } from './module'
+hello()
+
+//generadores
+
+function* helloworld(){
+    if(true){
+        yield 'Hello,'
+    }
+    if(true){
+        yield 'World'
+    }
+}
+
+const generationHelloWord = helloworld()
+
+console.log(generationHelloWord.next().value)
+console.log(generationHelloWord.next().value)
