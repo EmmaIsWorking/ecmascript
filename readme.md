@@ -35,3 +35,7 @@ Curso enfocado en aprender la nueva sintaxy de JavaScrip con relacion a las viej
 | ¿Qué se implemento en ES9? | clase8 |
 | ¿Qué se implemento en ES10? | clase9 |
 | TC39 y cierre del curso | clase10 |
+
+Proceso de implementación para nuevas versiones. 
+
+![process](http://emmaisworking.com/share/proceso-ecmas.png)
