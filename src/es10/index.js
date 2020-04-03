@@ -30,7 +30,7 @@ try {
 
 let entries = [["name", "Emmanuel"],["age", 28]]
 
-//en el ejercicio el metodo fromEnttries
+//en el ejercicio el metodo fromEntries
 
 console.log(Object.entries(entries))
 
